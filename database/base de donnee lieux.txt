@@ -1,0 +1,20 @@
+CREATE TABLE lieux (
+    idlieux int (4) AUTO_INCREMENT,
+    nomlieux varchar (40) not null,
+    description varchar (90) ,
+    adresse varchar (50) not null,
+    numfix varchar (13),
+    nummobile varchar (13),
+    email varchar(30) not null,
+    website varchar (50),
+    disponibility varchar (50),
+    tarif    varchar (50),
+    type varchar (40) not null,
+    image varchar (50),
+    video varchar (50),
+   PRIMARY KEY( idlieux )
+    
+);
+<<<<<insert into>>>>>>>
+INSERT INTO lieux (idlieux,nomlieux,description,adresse,numfix,nummobile,email,website,disponibility,tarif,type,image,video)
+VALUES();
